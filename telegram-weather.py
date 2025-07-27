@@ -31,7 +31,7 @@ if __name__ == '__main__':
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, Filters
 
-TOKEN = "توکن-ربات-تو"
+TOKEN = "8453202292:AAGV5X6yAID40FmZHy4SnCnbfeSzlnYgoVc"
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("سلام! بهم پیام بده تا جواب بدم.")
